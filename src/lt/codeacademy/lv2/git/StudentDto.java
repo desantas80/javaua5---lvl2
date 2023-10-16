@@ -2,14 +2,13 @@ package lt.codeacademy.lv2.git;
 
 public class StudentDto {
 
-    private final String name;
-    private final String surname;
+    private final String fullName;
 
-    public StudentDto(String name) {
-        this.name = name;
+    public StudentDto(String fullName) {
+        this.fullName = fullName;
     }
 
-    public String getName() {
-        return name;
+    public String getFullName() {
+        return fullName;
     }
 }
