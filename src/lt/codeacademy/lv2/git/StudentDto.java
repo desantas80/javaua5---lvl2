@@ -1,10 +1,11 @@
 package lt.codeacademy.lv2.git;
 
-public class Student {
+public class StudentDto {
 
     private final String name;
+    private final String surname;
 
-    public Student(String name) {
+    public StudentDto(String name) {
         this.name = name;
     }
 
