@@ -6,12 +6,14 @@ public class P1GitApp {
        ifExample();
     }
     private static void ifExample() {
-        boolean tiesa = (5>3);
-        if (5>3) {
-            tiesa = true;
+       // tenary operators - ?: 
+        int result = 0;
+               if (5>3) {
+            result = 5;
         } else {
-            tiesa = false;
+            result = 3;
         }
 
     }
+    private static void primitiveDataTypes() {...}
 }
